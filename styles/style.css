@@ -232,5 +232,9 @@ wrapper {
   margin: 0 auto;
 }
 
+html {
+  font-size: 125%;
+}
+
 /* site fonts */
 /* site colours */
