@@ -226,146 +226,35 @@ html {
   overflow: hidden;
 }
 
-wrapper {
+html {
+  margin: 0;
+}
+
+.wrapper {
   width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-ul li {
+ul {
+  list-style: none;
+}
+
+a {
   text-decoration: none;
+  color: #000;
 }
 
-html {
-  font-size: 125%;
-  line-height: 120%;
-}
-
-.nav-wrap h3,
-.head-wrap h1 {
-  font-family: "Tulpen One", cursive;
-}
-
-p,
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Chathura", sans-serif;
-}
-
-.text-container-1,
-.text-container-2,
-.text-container-3 {
-  font-weight: bold;
-  font-size: 3.4rem;
-  line-height: 2.9rem;
-  letter-spacing: 2.2px;
-}
-
-.head-wrap h1 {
-  font-size: 13.06rem;
-  letter-spacing: 2.4px;
-}
-
-.head-wrap h3 {
+.text-container-1 a,
+.text-container-2 a,
+.text-container-3 a {
   font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 2.6px;
-  line-height: 4.735rem;
+  border: 4px solid none;
+  padding: 20px;
+  color: white;
+  background-color: #BF2603;
 }
 
-.text-container-2 h3 {
-  font-size: 3.4rem;
-  letter-spacing: 2.6px;
-}
-
-p {
-  font-size: 1.95rem;
-  line-height: 1.5rem;
-  letter-spacing: 1.9px;
-}
-
-nav li {
-  font-size: 1.9rem;
-  line-height: 29px;
-  letter-spacing: 1.9px;
-}
-
-.nav-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav-wrap ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav-wrap li {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0 10px;
-}
-
-.head-wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-image: url(.../assets/home-image.jpg);
-}
-
-.head-wrap h1 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.head-wrap h3 {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.text-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.text-container-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.planning-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.reserve-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.beer-back-container {
-  background-image: url();
-}
-
-.events-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+img {
+  width: 100%;
 }
