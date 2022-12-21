@@ -18,17 +18,19 @@
 <body>
     <header>
 <!--Nav Section-->
-        <div class="nav-wrap">
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><h3>Bar-One</h3></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="wrapper">
+            <div class="nav-wrap">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><h3>Bar-One</h3></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>    
 <!--Header Image and Title-->
         <div class="head-wrap">
             <h1>Bar-One</h1>
@@ -38,48 +40,49 @@
 <main>
 <!--Blog Posts-->    
     <section>
-        <div class="text-box-1">
-            
-                <div class="text-container-1">
-                    <h3>New Space</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                    adipisicing elit. Dicta architecto pariatur 
-                    quidem, temporibus recusandae dolorem quasi 
-                    explicabo accusantium veritatis nobis natus 
-                    possimus corporis voluptatum autem nihil iste 
-                    ipsam cum excepturi!</p>
-                </div>
-                <div class="text-container-1">
-                    <h3>Community</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Dicta architecto pariatur
-                        quidem, temporibus recusandae dolorem quasi
-                        explicabo accusantium veritatis nobis natus
-                        possimus corporis voluptatum autem nihil iste
+        <div class="wrapper">
+            <div class="text-box-1">            
+                    <div class="text-container-1">
+                        <h3>New Space</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Dicta architecto pariatur 
+                        quidem, temporibus recusandae dolorem quasi 
+                        explicabo accusantium veritatis nobis natus 
+                        possimus corporis voluptatum autem nihil iste 
                         ipsam cum excepturi!</p>
-                </div>
+                    </div>
+                    <div class="text-container-1">
+                        <h3>Community</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dicta architecto pariatur
+                            quidem, temporibus recusandae dolorem quasi
+                            explicabo accusantium veritatis nobis natus
+                            possimus corporis voluptatum autem nihil iste
+                            ipsam cum excepturi!</p>
+                    </div>
+            </div>
         </div>
-        <div class="text-box-1">
-
-                <div class="text-container-1">
-                    <h3>Blog</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Dicta architecto pariatur
-                        quidem, temporibus recusandae dolorem quasi
-                        explicabo accusantium veritatis nobis natus
-                        possimus corporis voluptatum autem nihil iste
-                        ipsam cum excepturi!</p>
-                </div>
-                <div class="text-container-1">
-                    <h3>Get in Touch</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Dicta architecto pariatur
-                        quidem, temporibus recusandae dolorem quasi
-                        explicabo accusantium veritatis nobis natus
-                        possimus corporis voluptatum autem nihil iste
-                        ipsam cum excepturi!</p>
-                </div>
-            
+        <div class="wrapper">
+            <div class="text-box-1">
+                    <div class="text-container-1">
+                        <h3>Blog</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dicta architecto pariatur
+                            quidem, temporibus recusandae dolorem quasi
+                            explicabo accusantium veritatis nobis natus
+                            possimus corporis voluptatum autem nihil iste
+                            ipsam cum excepturi!</p>
+                    </div>
+                    <div class="text-container-1">
+                        <h3>Get in Touch</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Dicta architecto pariatur
+                            quidem, temporibus recusandae dolorem quasi
+                            explicabo accusantium veritatis nobis natus
+                            possimus corporis voluptatum autem nihil iste
+                            ipsam cum excepturi!</p>
+                    </div> 
+            </div>
         </div>
     </section>
 <!--Plan Ahead & New Locations-->
@@ -88,7 +91,7 @@
             <div class="image-container">
                 <img src="./assets/left-image.jpg" alt="Bar with Beautiful Lighting">
             </div>
-            <div class="text-container-2 plan-ahead">
+            <div class="text-container-2">
                 <h3>Plan Ahead</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur 
                     adipisicing elit. Provident facilis 
@@ -100,7 +103,7 @@
                     <a href="#">Read More</a>
             </div>
 
-            <div class="text-container-2 location">
+            <div class="text-container-3">
                 <h3>New Locations</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur
                     adipisicing elit. Provident facilis
@@ -109,7 +112,7 @@
                     accusantium ea, repellat consequatur
                     iure debitis cumque, dolore praesentium
                     et laborum?</p>
-                    <a href="#">Read More</a>
+                    <a href="#" class="read-more">Read More</a>
             </div>
             <div class="image-container">
                 <img src="./assets/right-image.jpg" alt="Early Morning Bar Setup">
@@ -119,15 +122,17 @@
 <!--Hosting Your Own Party-->
     <section>
         <div class="reserve-container">
-            <div class="text-container-3">
-                <h3>Want to host a party?</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur 
-                    adipisicing elit. Fugiat repudiandae sequi 
-                    deserunt dolorum at officiis eum 
-                    consequuntur quam dignissimos commodi, 
-                    voluptates accusamus eaque! Voluptates 
-                    obcaecati ab est rem qui similique.</p>
-                <a href="#">Find Out More</a>
+            <div class="wrapper">
+                <div class="text-container-4">
+                    <h3>Want to host a party?</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Fugiat repudiandae sequi 
+                        deserunt dolorum at officiis eum 
+                        consequuntur quam dignissimos commodi, 
+                        voluptates accusamus eaque! Voluptates 
+                        obcaecati ab est rem qui similique.</p>
+                    <a href="#" class="find-out-more">Find Out More</a>
+                </div>
             </div>
         </div>
     </section>
@@ -144,26 +149,26 @@
                 <div class="image-container-2">
                     <img src="./assets/small-box-image.jpg" alt="Night Out on the Town">
                 </div>
-                <div class="text-container-3">
+                <div class="text-container-5">
                     <h3>Events</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, 
                     adipisicing elit. Soluta id iste tempora possimus 
                     quod aspernatur minus qui tenetur voluptatem ad 
                     recusandae doloremque, vero velit quis aperiam 
                     debitis repudiandae modi quidem?</p>
-                    <a href="#">Find Out More</a>
+                    <a href="#" class="find-out-more-2">Find Out More</a>
                 </div>
             </div>
         </div>
     </section>
 <!--Gallery Section-->
     <section>
-        <div class="gallery-container">
-            
-                <img src="./assets/gallery-image-1.jpg" alt="Beers on Tap">
-                <img src="./assets/gallery-image-2.jpg" alt="Burger and Fries">
-                <img src="./assets/gallery-image-3.jpg" alt="Drinks">
-            
+        <div class="wrapper">
+            <div class="gallery-container">            
+                    <img src="./assets/gallery-image-1.jpg" alt="Beers on Tap">
+                    <img src="./assets/gallery-image-2.jpg" alt="Burger and Fries">
+                    <img src="./assets/gallery-image-3.jpg" alt="Drinks">            
+            </div>
         </div>
     </section>
 </main>

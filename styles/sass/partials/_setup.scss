@@ -5,36 +5,3 @@ html { box-sizing: border-box;}
 *, *:before, *:after {box-sizing: inherit}
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
-
-html {
-    margin: 0;
-}
-
-.wrapper {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-.text-container-1 a,
-.text-container-2 a,
-.text-container-3 a {
-    font-size: 1rem;
-    border: 4px solid none;
-    padding: 20px;
-    color: white;
-    background-color: #BF2603;
-}
-
-img {
-    width: 100%;
-}

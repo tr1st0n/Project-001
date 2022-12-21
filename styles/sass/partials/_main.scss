@@ -1,0 +1,111 @@
+// New Space and Community
+
+.text-box-1 {
+    display: flex;
+    padding: 10px 20px;
+}
+
+// Plan Ahead
+
+.planning-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.planning-box .text-container-2,
+.planning-box .text-container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 50px;
+    width: 50%;
+   
+}
+
+.planning-box .image-container {
+    width: 50%;
+}
+
+
+.text-container-2 a,
+.text-container-3 a {
+    text-align: center;
+    width: 40%;
+    padding: 0;
+}
+
+.text-container-3 h3 {
+    text-align: right;
+}
+
+.text-container-3 .read-more {
+    align-self: flex-end;
+}
+// Host Your Own Party
+
+.reserve-container {
+    display: flex;
+    
+}
+
+.text-container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-container-4 h3 {
+    text-align: center;
+}
+
+.text-container-4 .find-out-more {
+    align-self: center;
+    text-align: center;    
+    width: 20%;
+}
+
+
+
+// Beer Back Container 
+
+.beer-back-container {
+    height: 50vh;
+    background-image: url(../../../assets/banner-image.jpg);
+}
+
+// Events
+
+.events-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.events-container .image-container-2 {
+    width: 20%;
+}
+
+.events-container .text-container-5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 80%;
+}
+.events-container p {
+    width: 100%;
+}
+
+.text-container-5 .find-out-more-2 {
+    text-align: center;
+    width: 25%;
+    
+}
+
+// Gallery
+
+.gallery-container {
+    display: flex;
+}
+
+.gallery-container img {
+    padding: 0 20px;
+}

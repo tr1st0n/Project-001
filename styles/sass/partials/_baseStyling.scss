@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.text-container-1 a,
+.text-container-2 a,
+.text-container-3 a,
+.text-container-4 a,
+.text-container-5 a {
+    font-size: 1rem;
+    border: 4px solid none;
+    
+    color: white;
+    background-color: #BF2603;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    margin-bottom: 80px;
+}

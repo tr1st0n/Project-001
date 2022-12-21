@@ -21,7 +21,9 @@ h4 {
 // Stylesheet Basics
 .text-container-1,
 .text-container-2,
-.text-container-3 {
+.text-container-3, 
+.text-container-4, 
+.text-container-5 {
     font-weight: bold;
     font-size: 3.4rem;
     line-height: 2.9rem;
@@ -31,7 +33,6 @@ h4 {
 .head-wrap h1 {
     font-size: 13.06rem;
     letter-spacing: 2.4px;
-    color: $secondary;
 }
 
 .head-wrap h3 {
@@ -57,4 +58,6 @@ nav li {
     font-size: 1.9rem;
     line-height: 29px;
     letter-spacing: 1.9px;
+    font-family: 'Chathura',
+    sans-serif;
 }
