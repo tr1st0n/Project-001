@@ -1,11 +1,20 @@
 // New Space and Community
 
+#second {
+    background-color: #111010;
+    padding: 50px 0px;
+}
+
 .text-box-1 {
     display: flex;
     padding: 10px 20px;
 }
 
+
 // Plan Ahead
+#third {
+    background-color:#310906;
+}
 
 .planning-box {
     display: flex;
@@ -19,6 +28,7 @@
     justify-content: space-around;
     padding: 0 50px;
     width: 50%;
+    
    
 }
 
@@ -42,6 +52,10 @@
     align-self: flex-end;
 }
 // Host Your Own Party
+#fourth {
+    background-color: #111010;
+    padding: 60px 0px;
+}
 
 .reserve-container {
     display: flex;
@@ -55,6 +69,7 @@
 }
 .text-container-4 h3 {
     text-align: center;
+    color: #FF8327;
 }
 
 .text-container-4 .find-out-more {
@@ -68,11 +83,18 @@
 // Beer Back Container 
 
 .beer-back-container {
-    height: 50vh;
+    height: 60vh;
+    width: 100%;
     background-image: url(../../../assets/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 // Events
+#sixth {
+    background-color: #111010;
+    padding: 60px 0;
+}
 
 .events-container {
     display: flex;
@@ -90,6 +112,11 @@
     padding: 0 50px;
     width: 80%;
 }
+
+.events-container .text-container-5 h3 {
+    color: #FF8327;
+}
+
 .events-container p {
     width: 100%;
 }
@@ -101,7 +128,10 @@
 }
 
 // Gallery
-
+#seventh {
+    background-color:#310906;
+    padding: 60px 0;
+}
 .gallery-container {
     display: flex;
 }
