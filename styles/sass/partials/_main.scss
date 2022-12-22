@@ -2,15 +2,39 @@
 
 #second {
     background-color: #111010;
-    padding: 50px 0px;
+    padding: 105px 0px;
 }
 
 .text-box-1 {
     display: flex;
     padding: 10px 20px;
+    p {
+        padding: 0 10px 0 50px;
+    }
+    h3 {
+        padding: 0 0 5px 0;
+    }
 }
 
+.new-space::before {
+    content: url(../../../assets/home.png); 
+    display: inline-block;
+}
 
+.community::before {
+    content: url(../../../assets/social.png);
+    display: inline-block;
+}
+
+.blog::before {
+    content: url(../../../assets/document.png);
+    display: inline-block;
+}
+
+.get-in-touch::before {
+    content: url(../../../assets/phone.png);
+    display: inline-block;
+}
 // Plan Ahead
 #third {
     background-color:#310906;
@@ -32,16 +56,39 @@
    
 }
 
-.planning-box .image-container {
+.planning-box .image-container,
+.planning-box .image-container-second {
     width: 50%;
+    img {
+        width: 90%;
+    }
 }
 
+.planning-box .image-container {
+    position: relative;
+    bottom: 40px;
+    img {
+        box-shadow: 15px 15px #FF8327;
+    }
+    
+}
+
+.planning-box .image-container-second {
+    display: flex;
+    justify-content: flex-end;
+    img {
+        position: relative;
+        top: 50px;
+        box-shadow: -15px 15px #FF8327;
+    }
+}
 
 .text-container-2 a,
 .text-container-3 a {
     text-align: center;
     width: 40%;
     padding: 0;
+    font-size: 1.8rem;
 }
 
 .text-container-3 h3 {
@@ -50,11 +97,12 @@
 
 .text-container-3 .read-more {
     align-self: flex-end;
+    
 }
 // Host Your Own Party
 #fourth {
     background-color: #111010;
-    padding: 60px 0px;
+    padding: 140px 0 80px 0;
 }
 
 .reserve-container {
@@ -72,10 +120,16 @@
     color: #FF8327;
 }
 
+.text-container-4 p {
+    text-align: center;
+    padding: 20px 110px;
+}
+
 .text-container-4 .find-out-more {
     align-self: center;
     text-align: center;    
     width: 20%;
+    font-size: 1.8rem;
 }
 
 
@@ -103,6 +157,9 @@
 }
 .events-container .image-container-2 {
     width: 20%;
+    img {
+        box-shadow: -10px 10px #FF8327;
+    }
 }
 
 .events-container .text-container-5 {
@@ -124,7 +181,7 @@
 .text-container-5 .find-out-more-2 {
     text-align: center;
     width: 25%;
-    
+    font-size: 1.8rem;
 }
 
 // Gallery

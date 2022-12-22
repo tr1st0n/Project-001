@@ -1,11 +1,12 @@
 html {
-    font-size: 125%;
+    font-size: 100%;
     line-height: 120%;
 }
 
 // Fonts are Established
 .nav-wrap h3,
-.head-wrap h1 {
+.head-wrap h1, 
+a {
     font-family: 'Tulpen One', cursive;
 }
 
@@ -13,10 +14,12 @@ p,
 h1,
 h2,
 h3,
-h4 {
+h4,
+.nav-wrap l1 {
     font-family: 'Chathura', sans-serif;
     margin: 0;
 }
+
 
 // Stylesheet Basics
 .text-container-1,
@@ -25,28 +28,43 @@ h4 {
 .text-container-4, 
 .text-container-5 {
     font-weight: bold;
-    font-size: 3.4rem;
+    font-size: 2.43rem;
     line-height: 2.9rem;
     letter-spacing: 2.2px;
     color: #FFFFFF;
+    z-index: 100;
 }
 
+.text-container-1 h3,
+.text-container-2 h3,
+.text-container-3 h3,
+.text-container-4 h3,
+.text-container-5 h3 {
+    font-size: 3.4rem;
+    letter-spacing: 2.6px;
+}
+
+.text-container-1 a,
+.text-container-2 a,
+.text-container-3 a,
+.text-container-4 a,
+.text-container-5 a {
+    font-size: 1rem;
+}
+
+
 .head-wrap h1 {
-    font-size: 13.06rem;
+    font-size: 14.33rem;
     letter-spacing: 2.4px;
 }
 
 .head-wrap h3 {
-    font-size: 1rem;
+    font-size: 4.2rem;
     font-weight: bold;
-    letter-spacing: 2.6px;
-    line-height: 4.735rem;
+    letter-spacing: 2.6px;    
 }
 
-.text-container-2 h3 {
-    font-size: 3.4rem;
-    letter-spacing: 2.6px;
-}
+
 
 p {
     font-size: 1.95rem;
@@ -55,10 +73,15 @@ p {
 
 }
 
-nav li {
-    font-size: 1.9rem;
+.nav-wrap a {
+    font-size: 2rem;
     line-height: 29px;
     letter-spacing: 1.9px;
     font-family: 'Chathura',
     sans-serif;
+}
+
+.nav-wrap h3 {
+    font-size: 3rem;
+    font-weight:lighter;
 }
