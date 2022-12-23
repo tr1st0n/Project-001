@@ -1,0 +1,25 @@
+.foot-wrap {
+    display: flex;
+
+    .contact-wrap {
+        display: flex;
+
+        .social-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-email {
+            display: flex;
+        }
+    }
+
+    .form-container {
+        display: flex;
+    }
+}
+
+.copyright-container {
+    display: flex;
+    text-align: center;
+}

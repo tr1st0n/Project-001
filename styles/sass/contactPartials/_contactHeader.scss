@@ -1,0 +1,22 @@
+.nav-wrap {
+    padding: 20px 0 0 0;
+    ul { 
+        display: flex;
+        justify-content: center;
+        li a {
+            color: 0 1.1rem;
+        }
+    }
+    a:hover {
+        color: #ff8327;
+    }
+}
+
+.title-container {
+    display: flex;
+    h4 {
+        display: flex;
+        align-items: center;
+    }
+}
+
