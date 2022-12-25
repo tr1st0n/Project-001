@@ -1,10 +1,18 @@
+#first {
+    background-image: url(../../../assets/contact-header-1.jpg);
+}
+
 .nav-wrap {
     padding: 20px 0 0 0;
     ul { 
         display: flex;
         justify-content: center;
         li a {
-            color: 0 1.1rem;
+            color: white;
+            padding: 0 1.1rem;
+        }
+        h3 {
+            margin: 0;
         }
     }
     a:hover {

@@ -1,0 +1,58 @@
+html {
+    font-size: 125%;
+}
+
+.nav-wrap {
+    ul {
+    font-family: 'Chathura',
+    sans-serif;
+    }
+    li {
+        padding: 0 20px;
+        font-size: 2.3rem;
+        color: white;
+        h3 {
+            font-family: 'Tulpen One',
+            cursive;
+        }
+    }
+
+}
+
+.title-container h4 {
+    font-family: 'Chathura',
+    sans-serif;
+    font-size: 6rem;
+    color: white;
+}
+
+.contact-wrap {
+    font-family: 'Chathura',
+    sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+.form-container {
+    font-family: 'Chathura',
+    sans-serif;
+    input {
+    font-family: 'Chathura',
+    sans-serif;
+    }
+}
+
+.message-container {
+    .text-area {
+    font-family: 'Chathura',
+        sans-serif;
+    }
+}
+
+.message-wrap {
+    .submit-button {
+        font-family: 'Tulpen One',
+        cursive;
+    }
+}

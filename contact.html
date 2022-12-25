@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="./styles/contactStyle.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="first">
         <!--Nav Section-->
         <div class="nav-wrap">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
+                    <li><a href="./index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li>
                         <h3>Bar-One</h3>
@@ -24,30 +31,56 @@
             </nav>
         </div>
 <!--Get in Touch-->
-        <div class="title-container">
-            <h4>Get in Touch</h4>
+        <div class="wrapper">
+            <div class="title-container">
+                <h4>Get in Touch</h4>
+            </div>
         </div>
     </header>
 <!--Contact-->
-    <footer>
-        <div class="foot-wrap">        
-            <div class="contact-wrap">
-                <div class="social-container">
-                    <ul>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                        <li><img src="" alt=""></li>
-                    </ul>
-                </div>
-                <div class="contact-email">
-                        <p>info@email.com</p>
-                </div>
+    <footer id="second">
+        <div class="wrapper-2">
+            <div class="foot-wrap">
+                <div class="contact-wrap">
+                        <div class="social-container">
+                            <ul>
+                                <li><img src="" alt=""></li>
+                                <li><img src="" alt=""></li>
+                                <li><img src="" alt=""></li>
+                                <li><img src="" alt=""></li>
+                            </ul>
+                        </div>
+                        <div class="contact-email">
+                                <p>info@email.com</p>
+                        </div>
+                        <div class="address-box">
+                            <p>123 - 456 - 7890, <br> 123 Queen Street West, Unit <br> 10 <br> Toronto, Ontario <br>M5V2D5 </p>
+                        </div>
             </div>
 <!--Form-->            
             <div class="form-container">
-                <div class="form-wrap">
-                    <!--Figure out Form Section-->
+                <div class="form-wrapper">
+                    <form action="#" method="post">
+                        <div class="info-container">
+                            <div class="names">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="Name">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="Email address">
+                            </div>
+                        </div>
+                        <div class="message-wrap"> 
+                            <div class="message-container">
+                                <label for="comments">Message</label>
+                                <textarea class="text-area" name="comments" id="comments" cols="30" rows="10" minlength="5" maxlength="140" placeholder="Message"></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

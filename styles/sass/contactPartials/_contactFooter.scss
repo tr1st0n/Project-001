@@ -1,25 +1,84 @@
+#second {
+    background-color: #220303;
+}
+
 .foot-wrap {
     display: flex;
+    
 
     .contact-wrap {
         display: flex;
+        flex-direction: column;
+        width: 30%;
 
         .social-container {
             display: flex;
-            flex-direction: column;
+            
         }
 
         .contact-email {
             display: flex;
         }
+
+        .address-box {
+            display: flex;
+            flex-direction: column;
+            p {
+                padding: 0 20px 0 0;
+                margin: 0;
+            }
+        }
     }
 
     .form-container {
         display: flex;
+        width: 70%;
+        color: white;
+        
+        .form-wrapper {
+            display: flex;
+            width: 100%;
+            .info-container {
+                display: flex;
+                width: 100%;
+                button, input {
+                    width: 100%;
+                }
+            }
+            form {
+                background-color: white;
+                color: black;
+                padding: 70px;
+                width: 100%;
+            }
+            
+            .message-wrap {
+                .message-container {
+                    textarea {
+                        width: 100%;
+                    }
+                }
+
+            }
+            button {
+                .submit-button {
+                    width: 100%;
+                }
+            }
+            
+        }
+        
     }
+    
 }
 
 .copyright-container {
-    display: flex;
     text-align: center;
+    color: #FFFFFF;
+    background-color: rgb(64, 64, 64);
+    padding: 0;
+    p {
+        padding: 13px;
+        margin: 0;
+    }
 }
