@@ -377,6 +377,10 @@ img {
   padding: 0 1.1rem;
 }
 
+.nav-wrap h3 {
+  margin: 0;
+}
+
 .nav-wrap a:hover {
   color: #FF8327;
 }

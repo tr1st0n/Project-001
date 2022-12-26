@@ -1,5 +1,6 @@
 #second {
-    background-color: #220303;
+    background-color:#111010 ;
+    
 }
 
 .foot-wrap {
@@ -10,14 +11,26 @@
         display: flex;
         flex-direction: column;
         width: 30%;
+        margin-top: 60px;
 
         .social-container {
             display: flex;
-            
+            flex-direction: row;
+            ul {
+                display: flex;
+                padding: 0;
+                margin-bottom: 0;
+                :hover {
+                    cursor: pointer;
+                }
+            }
         }
 
         .contact-email {
             display: flex;
+            p {
+                margin-top: 0;
+            }
         }
 
         .address-box {
@@ -33,7 +46,11 @@
     .form-container {
         display: flex;
         width: 70%;
-        color: white;
+        color: #220303;
+        position: relative;
+        bottom: 140px;
+        right: 75px;
+        box-shadow: 20px 20px #FF8327;
         
         .form-wrapper {
             display: flex;
@@ -43,10 +60,34 @@
                 width: 100%;
                 button, input {
                     width: 100%;
+                    border-top-style: hidden;
+                    border-right-style: hidden;
+                    border-left-style: hidden;
+                }
+                .email {
+                    width: 50%;
+                    margin-bottom: 35px;
+                    input {
+                        padding: 10px;
+                        background-color: transparent;
+                        color: white;
+                    }
+                }
+                .names {
+                    width: 50%;
+                    margin-bottom: 35px;
+                    margin-right: 20px;
+                    
+                    
+                    input {
+                        padding: 10px;
+                        background-color: transparent;
+                        color: white;
+                    }
                 }
             }
             form {
-                background-color: white;
+                background-color: #310906;
                 color: black;
                 padding: 70px;
                 width: 100%;
@@ -56,14 +97,23 @@
                 .message-container {
                     textarea {
                         width: 100%;
+                        padding: 10px 10px;
+                        margin-bottom: 35px;
+                        background-color: transparent;
+                        color: white;
                     }
                 }
-
-            }
-            button {
                 .submit-button {
                     width: 100%;
+                    padding: 5px;
+                    background-color: #BF2603;
+                    color: #FFFFFF;
+                    border-style: none;
+                    font-family: 'Tulpen One',
+                    cursive;
+                    font-size: 1.4rem;
                 }
+
             }
             
         }
@@ -80,5 +130,8 @@
     p {
         padding: 13px;
         margin: 0;
+        font-family: 'Chathura',
+            sans-serif;
+        font-size: 1.95rem;
     }
 }
