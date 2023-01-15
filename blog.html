@@ -5,60 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/blogStyle.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+<header id="first">
 <!--Navigation Bar-->
-                <div class="nav-wrap">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li>
-                                <h3>Bar-One</h3>
-                            </li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-<!--Header-->
-<header>
-    <div class="title-container-2">
-        <h2>Blog</h2>
+    <div class="nav-wrap">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li>
+                    <h3>Bar-One</h3>
+                </li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </div>
-    <section>
-        <div class="container-wrap">
-            <div class="left-container">
-                <img src="" alt="">
-                <div class="text-box">
-                    <h4>Our Mission</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur 
-                        adipisicing elit. Placeat illum voluptate 
-                        quas provident expedita, exercitationem 
-                        dolor, minus perspiciatis numquam debitis 
-                        sed, voluptatibus maiores. Porro nisi 
-                        blanditiis modi dignissimos voluptas possimus.</p>
 
-                    <h4>Recent Posts</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Placeat illum voluptate
-                        quas provident expedita, exercitationem
-                        dolor, minus perspiciatis numquam debitis
-                        sed, voluptatibus maiores. Porro nisi
-                        blanditiis modi dignissimos voluptas possimus.</p>
+    <div class="title-container-2">
+        <div class="wrapper">
+            <h2>Blog</h2>
+        </div>
+    </div>
+</header>
+<main>
+    <section id="second">
+        <div class="container-wrap">
+            <div class="left-container">  
+                <div class="text-box">
+                    <h2>Our Mission</h2>
+                    <p>Nam dopibus nisl vitae elit fringilla
+                        rutrum. Aeneon sollicitudin, erat elementum.</p>
+
+                    <h2>Recent Posts</h2>
+                        <ul>
+                            <li>Donec facilisis tortor ut</li>
+                            <li>Augue lacinia at vivrra</li>
+                            <li>Semper sed sapien metus</li>
+                            <li>Scelerisque nec pharetra id</li>
+                        </ul>
                 </div>
+                    <div class="left-image-container">
+                        <img src="./assets/sidebar-image.jpg" alt="">
+                    </div>
             </div>
 <!--New Menu!-->
             <div class="right-container">
                 <div class="top-image-container">
-                    <img src="" alt="">
-                </div>
-                <div class="blog-title-container">
-                    <h4>New menu!</h4>
-                    <p>Monday January 30, 2019 by Soron</p>
+                    <img src="./assets/post-image.jpg" alt="">
                 </div>
                 <div class="blog-text-container">
+                    <h2>New menu!</h2>
+                    <p class="date">Monday January 30, 2019 by Soron</p>
                     <p>Lorem ipsum dolor sit amet consectetur 
                         adipisicing elit. Quasi ut molestias, 
                         soluta autem reprehenderit incidunt. 
@@ -79,7 +86,9 @@
                         Autem ipsa aut quis nemo numquam
                         perspiciatis corporis, repellendus
                         alias tempora, iure asperiores distinctio
-                        accusantium.</p>
+                        accusantium. Lorem ipsum dolor sit amet 
+                        consectetur adipisicing elit. Consequuntur 
+                        qui tenetur voluptates illo cum fugiat. </p>
                     <p>Lorem ipsum dolor sit amet consectetur
                         adipisicing elit. Quasi ut molestias,
                         soluta autem reprehenderit incidunt.
@@ -88,57 +97,80 @@
                         alias tempora, iure asperiores distinctio
                         accusantium.</p>
                 </div>
-            </div>
-        </div>
-    </section>
+
 <!--Comments-->
-    <section>
-        <div class="comments-container">
-            <div class="first-comment">
-                <div class="pf-pic-container">
-                    <img src="" alt="">
-                    <div>
-                        <h4>Tuesday October 9th, 2019 by Sulaire</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur 
+  
+                <div class="comments-container">
+                    <div class="comment-title">
+                        <h2>Comments:</h2>
+                    </div>
+                    <div class="first-comment">
+                        <div class="pf-pic-container">
+                            <img src="./assets/comment-image-1.jpg" alt="">
+                        </div>
+                        <div class="comment-1">
+                            <h4>Tuesday October 9th, 2019 by Sulaire</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. Non eum adipisci 
                             saepe atque consequuntur officiis eius 
                             reprehenderit sint minima quo nobis, 
                             laboriosam distinctio laudantium cum 
                             perspiciatis quis similique porro 
                             consectetur.</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="second-comment">
-                <div class="pf-pic-container">
-                    <img src="" alt="">
-                    <div>
-                        <h4>Wednesday October 10th, 2019 by Renzo</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur 
+                    <div class="second-comment">
+                        <div class="pf-pic-container">
+                            <img src="./assets/comment-image-2.jpg" alt="">
+                        </div>
+                        <div class="comment-2">
+                            <h4>Wednesday October 10th, 2019 by Renzo</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur 
                             adipisicing elit. Quos aliquid, 
                             repellendus eius optio culpa, quo iure 
                             alias minus, id aspernatur aut at 
                             voluptates suscipit ullam consequuntur 
                             sapiente tempora. Vel, facere!</p>
+                        </div>
+                    </div>
+                </div>
+
+<!--Form Container-->
+
+                <div class="form-container">
+                    <div class="form-wrap">
+                        <form action="#" method="post">
+                            <div class="info-container">
+                                <div class="names">
+                                    <label for="names">Name</label>       
+                                    <input type="text" name="name">
+                                </div>
+                                <div class="email">
+                                    <label for="email">Email Address</label>        
+                                    <input type="email" name="email">
+                                </div>
+                            </div>
+                            <div class="message-wrap">
+                                <div class="message-container">
+                                            
+                                    <textarea class="text-area" name="comments" id="comments" cols="30" rows="10" minlength="5" maxlength="140" placeholder="Comment"></textarea>
+                                </div>
+                                <div class="button">
+                                    <button class="submit-button" type="submit">Post Comment</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<!--Form Container-->
-<section>
-    <!--Figure out Form Container-->
-    <div class="form-container">
-        <div class="form-wrap">
-
-        </div>
-    </div>
-</section>
+</main>
 <footer>
     <div class="copyright-container">
         <p>Copyright © 2019 HackerYou</p>
     </div>
 </footer>
-</header>
+
 </body>
 </html>
