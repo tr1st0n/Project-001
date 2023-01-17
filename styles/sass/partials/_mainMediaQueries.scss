@@ -1,0 +1,52 @@
+@media (max-width: 810px) {
+    .nav-wrap {
+        nav {
+            ul li {
+               :hover {
+                   color: orangered;
+               }
+            }
+        }
+    }
+
+    .planning-box {
+        .text-container-2 {
+            h3 {
+                padding: 20px 0 0 0;
+            }
+        }
+
+        .text-container-3 {
+            padding: 0 30px 20px 30px;
+            h3 {
+                text-align: left;
+            }
+            .read-more {
+                align-self: flex-start;
+            }
+        }
+        .text-container-2 p, 
+        .text-container-3 p {
+            padding: 20px 0;
+        }
+    }
+
+
+
+
+    .beer-back-container {
+        background-size: contain;
+        
+    }
+
+    .events-container {
+        .image-container-2 {
+            align-self: center;
+        }
+        .text-container-5 {
+            p {
+                padding: 10px 0;
+            }
+        }
+    }
+}

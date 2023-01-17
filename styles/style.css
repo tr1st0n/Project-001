@@ -682,3 +682,36 @@ img {
 .copyright-container p {
   padding: 13px 0;
 }
+
+@media (max-width: 810px) {
+  .nav-wrap nav ul li :hover {
+    color: orangered;
+  }
+  .planning-box .text-container-2 h3 {
+    padding: 20px 0 0 0;
+  }
+  .planning-box .text-container-3 {
+    padding: 0 30px 20px 30px;
+  }
+  .planning-box .text-container-3 h3 {
+    text-align: left;
+  }
+  .planning-box .text-container-3 .read-more {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+  }
+  .planning-box .text-container-2 p,
+.planning-box .text-container-3 p {
+    padding: 20px 0;
+  }
+  .beer-back-container {
+    background-size: contain;
+  }
+  .events-container .image-container-2 {
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .events-container .text-container-5 p {
+    padding: 10px 0;
+  }
+}

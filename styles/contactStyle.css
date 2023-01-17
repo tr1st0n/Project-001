@@ -297,10 +297,12 @@ html {
 }
 .form-container input {
   font-family: "Chathura", sans-serif;
+  font-size: 150%;
 }
 
 .message-container .text-area {
   font-family: "Chathura", sans-serif;
+  font-size: 150%;
 }
 
 .message-wrap button .submit-button {
@@ -463,7 +465,7 @@ html {
 .foot-wrap .form-container .form-wrapper form {
   background-color: #310906;
   color: black;
-  padding: 70px;
+  padding: 50px;
   width: 100%;
 }
 .foot-wrap .form-container .form-wrapper .message-wrap .message-container textarea {

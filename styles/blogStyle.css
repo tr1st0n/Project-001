@@ -250,8 +250,8 @@ input {
 }
 
 html {
-  font-size: 120%;
-  line-height: 120%;
+  font-size: 100%;
+  line-height: 150%;
 }
 
 .nav-wrap ul {
@@ -275,16 +275,21 @@ main {
   font-family: "Chathura", sans-serif;
 }
 main .left-container {
-  font-size: 1.7rem;
+  font-size: 1.95rem;
 }
 main .right-container {
-  font-size: 1.7rem;
+  font-size: 1.95rem;
 }
 main .right-container .form-container .message-wrap .message-container .text-area {
   font-family: "Chathura", sans-serif;
 }
 main .right-container .form-container .message-wrap .button .submit-button {
   font-family: "Tulpen One";
+}
+
+footer .copyright-container {
+  font-family: "Chathura", sans-serif;
+  font-size: 1.95rem;
 }
 
 #first {
@@ -379,11 +384,15 @@ main .right-container .form-container .message-wrap .button .submit-button {
 .container-wrap .left-container .text-box h2 {
   margin-bottom: 10px;
 }
+.container-wrap .left-container .text-box a {
+  color: orangered;
+}
 .container-wrap .left-container .text-box p {
-  margin-top: 10px;
+  margin: 10px 0 0 0;
 }
 .container-wrap .left-container .text-box ul {
   list-style: circle;
+  margin-top: 0;
 }
 .container-wrap .right-container {
   width: 65%;
@@ -405,7 +414,8 @@ main .right-container .form-container .message-wrap .button .submit-button {
   left: 20px;
 }
 .container-wrap .right-container .top-image-container img {
-  overflow: hidden;
+  width: calc(100% - 20px);
+  overflow: scroll;
 }
 .container-wrap .right-container .blog-text-container {
   display: -webkit-box;
@@ -481,6 +491,8 @@ main .right-container .form-container .message-wrap .button .submit-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 90%;
+  margin-left: 60px;
 }
 .container-wrap .right-container .form-container .form-wrap form {
   display: -webkit-box;
@@ -498,7 +510,7 @@ main .right-container .form-container .message-wrap .button .submit-button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 80%;
+  width: 90%;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .names {
   width: 45%;

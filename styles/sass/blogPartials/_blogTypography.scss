@@ -1,6 +1,6 @@
 html {
-    font-size: 120%;
-    line-height: 120%;
+    font-size: 100%;
+    line-height: 150%;
 }
 
 .nav-wrap {
@@ -35,10 +35,10 @@ main {
     font-family: 'Chathura',
     sans-serif;
     .left-container {
-        font-size: 1.7rem;
+        font-size: 1.95rem;
     } 
     .right-container {
-        font-size: 1.7rem;
+        font-size: 1.95rem;
         .form-container {
             .message-wrap {
                 .message-container {
@@ -55,5 +55,13 @@ main {
                 }
             }
         }
+    }
+}
+
+footer {
+    .copyright-container {
+        font-family: 'Chathura',
+        sans-serif;
+        font-size: 1.95rem;
     }
 }

@@ -31,11 +31,15 @@
             h2 {
                 margin-bottom: 10px;
             }
+            a {
+                color: orangered;
+            }
             p {
-                margin-top: 10px;
+                margin: 10px 0 0 0;
             }
             ul {
                 list-style: circle;
+                margin-top: 0;
             }
         }
     }
@@ -54,7 +58,8 @@
             position: relative;
             left: 20px;
             img {
-                overflow: hidden;
+                width: calc(100% - 20px);
+                overflow:scroll;
             }
         }
         .blog-text-container {
@@ -114,7 +119,8 @@
             display: flex;
             .form-wrap {
                 display: flex;
-                
+                width: 90%;
+                margin-left: 60px;
                 form {
                     display: flex;
                     flex-direction: column;
@@ -122,7 +128,7 @@
                     .info-container {
                         display: flex;
                         justify-content: space-between;
-                        width: 80%;
+                        width: 90%;
                         .names {
                             width: 45%;
                             margin-bottom: 35px;
