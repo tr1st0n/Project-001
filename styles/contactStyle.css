@@ -258,7 +258,6 @@ html {
 
 html {
   font-size: 100%;
-  line-height: 120%;
 }
 
 .nav-wrap ul {
@@ -412,6 +411,7 @@ html {
 .foot-wrap .contact-wrap .address-box p {
   padding: 0 20px 0 0;
   margin: 0;
+  width: 14rem;
 }
 .foot-wrap .form-container {
   display: -webkit-box;
@@ -490,10 +490,20 @@ html {
   color: #FFFFFF;
   background-color: rgb(64, 64, 64);
   padding: 0;
+  margin: 0;
 }
 .copyright-container p {
   padding: 13px;
   margin: 0;
   font-family: "Chathura", sans-serif;
   font-size: 1.95rem;
+}
+
+@media (max-width: 810px) {
+  footer .foot-wrap .contact-wrap .address-box p {
+    width: 9rem;
+  }
+  footer .form-container {
+    left: -3rem;
+  }
 }

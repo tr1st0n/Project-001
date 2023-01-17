@@ -705,7 +705,8 @@ img {
     padding: 20px 0;
   }
   .beer-back-container {
-    background-size: contain;
+    height: 24vh;
+    background-repeat: no-repeat;
   }
   .events-container .image-container-2 {
     -ms-flex-item-align: center;
