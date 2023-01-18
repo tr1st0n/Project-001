@@ -16,30 +16,47 @@
         position: relative;
         .left-image-container {
             display: flex;
-            height: 18%;
-            width: 78%;
             position: absolute;
-            top: 20px;
+            top: 25px;
+            width: 350px;
+            
         }
         .text-box {
             display: flex;
             flex-direction: column;
-            padding: 320px 30px 20px 30px;
+            padding: 310px 30px 20px 30px;
             margin: 50px 75px;
             background-color: #310906;
             
-            h2 {
-                margin-bottom: 10px;
+            .our-mission {
+                h2 {
+                    margin-bottom: 0;
+                }
+                p {
+                    margin: 10px 0 0 0;
+                    
+                }
+                a {
+                    margin-top: 0;
+                    color: orangered;
+                }
+
             }
-            a {
-                color: orangered;
-            }
-            p {
-                margin: 10px 0 0 0;
-            }
-            ul {
-                list-style: circle;
-                margin-top: 0;
+            .recent-posts {
+                h2 {
+                    margin-bottom: 0;
+                }
+                ul {
+                    margin-top: 10px;
+                    list-style: none;
+                    li::before {
+                        content: "•";
+                        color: red;
+                        display: inline-block;
+                        width: 1rem;
+                        margin-left: -1em;
+                    }
+                }
             }
         }
     }
@@ -53,14 +70,11 @@
         position: relative;
         top: -100px;
         .top-image-container {
-            width: 100%;
+            width: calc(100% - 20px);
             box-shadow: -20px 20px orangered;
             position: relative;
             left: 20px;
-            img {
-                width: calc(100% - 20px);
-                overflow:scroll;
-            }
+            
         }
         .blog-text-container {
             display: flex;
@@ -130,9 +144,9 @@
                         justify-content: space-between;
                         width: 90%;
                         .names {
-                            width: 45%;
+                            width: 50%;
                             margin-bottom: 35px;
-
+                            margin-right: 25px;
                             label {
                                 padding: 0 30px;
                             }
@@ -141,14 +155,15 @@
                                 color: white;
                                 border-bottom: 1px solid orangered;
                                 width: 100%;
+                                
                             }
                         }
                         .email {
                             width: 50%;
                             margin-bottom: 35px;
-
+                            
                             label {
-                                padding: 0 30px;
+                                padding: 0 0 0 30px;
                             }
                         
                             input {

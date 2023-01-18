@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -364,10 +365,9 @@ footer .copyright-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 18%;
-  width: 78%;
   position: absolute;
-  top: 20px;
+  top: 25px;
+  width: 350px;
 }
 .container-wrap .left-container .text-box {
   display: -webkit-box;
@@ -377,22 +377,33 @@ footer .copyright-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 320px 30px 20px 30px;
+  padding: 310px 30px 20px 30px;
   margin: 50px 75px;
   background-color: #310906;
 }
-.container-wrap .left-container .text-box h2 {
-  margin-bottom: 10px;
+.container-wrap .left-container .text-box .our-mission h2 {
+  margin-bottom: 0;
 }
-.container-wrap .left-container .text-box a {
-  color: orangered;
-}
-.container-wrap .left-container .text-box p {
+.container-wrap .left-container .text-box .our-mission p {
   margin: 10px 0 0 0;
 }
-.container-wrap .left-container .text-box ul {
-  list-style: circle;
+.container-wrap .left-container .text-box .our-mission a {
   margin-top: 0;
+  color: orangered;
+}
+.container-wrap .left-container .text-box .recent-posts h2 {
+  margin-bottom: 0;
+}
+.container-wrap .left-container .text-box .recent-posts ul {
+  margin-top: 10px;
+  list-style: none;
+}
+.container-wrap .left-container .text-box .recent-posts ul li::before {
+  content: "•";
+  color: red;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1em;
 }
 .container-wrap .right-container {
   width: 65%;
@@ -407,15 +418,11 @@ footer .copyright-container {
   top: -100px;
 }
 .container-wrap .right-container .top-image-container {
-  width: 100%;
+  width: calc(100% - 20px);
   -webkit-box-shadow: -20px 20px orangered;
           box-shadow: -20px 20px orangered;
   position: relative;
   left: 20px;
-}
-.container-wrap .right-container .top-image-container img {
-  width: calc(100% - 20px);
-  overflow: scroll;
 }
 .container-wrap .right-container .blog-text-container {
   display: -webkit-box;
@@ -513,8 +520,9 @@ footer .copyright-container {
   width: 90%;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .names {
-  width: 45%;
+  width: 50%;
   margin-bottom: 35px;
+  margin-right: 25px;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .names label {
   padding: 0 30px;
@@ -530,7 +538,7 @@ footer .copyright-container {
   margin-bottom: 35px;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .email label {
-  padding: 0 30px;
+  padding: 0 0 0 30px;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .email input {
   background-color: transparent;
@@ -584,4 +592,31 @@ footer .copyright-container {
 .copyright-container p {
   padding: 13px 0;
   margin: 0;
+}
+
+@media (width: 810px) {
+  .container-wrap .left-container {
+    width: 40%;
+    margin-top: 45px;
+  }
+  .container-wrap .left-container .text-box {
+    padding: 190px 20px 20px 20px;
+    margin: 50px 45px;
+  }
+  .container-wrap .left-container .text-box ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+  .container-wrap .left-container .left-image-container {
+    width: 250px;
+  }
+  .container-wrap .right-container {
+    width: 60%;
+  }
+  .container-wrap .right-container .comments-container .pf-pic-container {
+    width: 100%;
+  }
+  .container-wrap .right-container .form-container .form-wrap form .info-container .email input {
+    width: 100%;
+  }
 }
