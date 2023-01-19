@@ -543,7 +543,7 @@ img {
 .text-container-2 a,
 .text-container-3 a {
   text-align: center;
-  width: 40%;
+  width: 30%;
   padding: 0;
   font-size: 1.8rem;
 }
@@ -687,8 +687,23 @@ img {
   .nav-wrap nav ul li :hover {
     color: orangered;
   }
+  .wrapper .head-flex .side-image {
+    position: relative;
+    top: -450px;
+    left: 40px;
+  }
+  .wrapper .text-box-1 {
+    padding: 10px 0;
+  }
   .planning-box .text-container-2 h3 {
     padding: 20px 0 0 0;
+  }
+  .planning-box .image-container {
+    position: relative;
+    bottom: -30px;
+  }
+  .planning-box .image-container-second {
+    height: 50%;
   }
   .planning-box .text-container-3 {
     padding: 0 30px 20px 30px;
@@ -704,6 +719,9 @@ img {
 .planning-box .text-container-3 p {
     padding: 20px 0;
   }
+  #fourth {
+    padding: 80px 0;
+  }
   .beer-back-container {
     height: 24vh;
     background-repeat: no-repeat;
@@ -714,5 +732,138 @@ img {
   }
   .events-container .text-container-5 p {
     padding: 10px 0;
+  }
+}
+@media (max-width: 390px) {
+  .head-flex {
+    height: 70vh;
+  }
+  .head-flex .nav-wrap {
+    width: 100%;
+    display: none;
+  }
+  .head-flex .nav-wrap li {
+    padding: 0 10px;
+  }
+  .head-flex .head-wrap h1 {
+    font-size: 6rem;
+  }
+  .head-flex .head-wrap h3 {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    right: 0px;
+    bottom: 40px;
+    font-size: 3rem;
+  }
+  .head-flex .side-image {
+    visibility: hidden;
+  }
+  #second {
+    padding: 30px 0;
+  }
+  #second .wrapper .text-box-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #second .wrapper .text-box-1 .text-container-1 {
+    padding: 20px 0;
+  }
+  #second .wrapper .text-box-1 .text-container-1 h3 {
+    text-align: left;
+  }
+  #third .planning-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #third .planning-box .image-container {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+  }
+  #third .planning-box .text-container-2 {
+    width: 100%;
+    padding: 30px 30px;
+    text-align: center;
+  }
+  #third .planning-box .text-container-2 a {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 100%;
+  }
+  #third .planning-box .text-container-3 {
+    width: 100%;
+    padding: 30px 30px;
+    text-align: center;
+  }
+  #third .planning-box .text-container-3 h3 {
+    text-align: center;
+  }
+  #third .planning-box .text-container-3 a {
+    -ms-flex-item-align: center;
+        align-self: center;
+    width: 100%;
+  }
+  #third .planning-box .image-container-second {
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+  }
+  #fourth .reserve-container .text-container-4 p {
+    padding: 20px 20px;
+  }
+  #fourth .reserve-container .text-container-4 a {
+    width: 100%;
+  }
+  #fifth {
+    height: 10vh;
+  }
+  #sixth .events-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sixth .events-container .image-container-2 {
+    width: 50%;
+    padding: 20px 0;
+  }
+  #sixth .events-container .text-container-5 {
+    width: 100%;
+    text-align: center;
+  }
+  #sixth .events-container .text-container-5 p {
+    width: 100%;
+  }
+  #sixth .events-container .find-out-more-2 {
+    width: 100%;
+  }
+  #seventh .gallery-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #seventh .gallery-container img {
+    padding-bottom: 20px;
+  }
+  #seventh .gallery-container .drink {
+    display: none;
   }
 }
