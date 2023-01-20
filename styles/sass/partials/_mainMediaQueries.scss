@@ -3,7 +3,7 @@
         nav {
             ul li {
                :hover {
-                   color: orangered;
+                   color: #FF8327;
                }
             }
         }
@@ -96,7 +96,7 @@
         
                 .drop-nav div {
                     height: 7px;
-                    background-color: white;
+                    background-color: #FFFFFF;
                     margin: 0 0 5px 5px;
                     border-radius: 25px;
                     transition: 0.3s;
@@ -136,7 +136,7 @@
             }
         
             .mini-title {
-                color: white;
+                color: #FFFFFF;
                 padding: 0 20px;
                 
                 font-size: 2rem;
@@ -238,7 +238,10 @@
         }
     } 
     #fifth {
-        height: 10vh;
+        height: 14vh;
+        .beer-back-container {
+            background-size: contain;
+        }
     }
     #sixth {
         .events-container {

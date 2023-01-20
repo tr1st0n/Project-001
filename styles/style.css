@@ -63,7 +63,6 @@ h4,
 p {
   font-size: 1.95rem;
   line-height: 1.5rem;
-  letter-spacing: 1.9px;
 }
 
 .nav-wrap a {
@@ -76,6 +75,11 @@ p {
 .nav-wrap h3 {
   font-size: 3rem;
   font-weight: lighter;
+}
+
+.copyright-container p {
+  font-family: "Chathura", sans-serif;
+  font-size: 1.95rem;
 }
 
 html {
@@ -332,7 +336,7 @@ a {
 .text-container-5 a {
   font-size: 1rem;
   border: 4px solid none;
-  color: white;
+  color: #FFFFFF;
   background-color: #BF2603;
 }
 
@@ -344,6 +348,10 @@ img {
 #first {
   background-image: url(../../../assets/blog-header-1.jpg);
   background-size: cover;
+}
+
+.mini-title {
+  display: none;
 }
 
 .head-flex {
@@ -503,7 +511,7 @@ img {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 0 50px;
+  padding: 50px;
   width: 50%;
 }
 
@@ -660,7 +668,7 @@ img {
 }
 
 #seventh {
-  background-color: #310906;
+  background-color: #220303;
   padding: 60px 0;
 }
 
@@ -685,7 +693,7 @@ img {
 
 @media (max-width: 810px) {
   .nav-wrap nav ul li :hover {
-    color: orangered;
+    color: #FF8327;
   }
   .wrapper .head-flex .side-image {
     position: relative;
@@ -770,7 +778,7 @@ img {
   }
   .mobile-nav .dropdown .drop-nav div {
     height: 7px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0 0 5px 5px;
     border-radius: 25px;
     -webkit-transition: 0.3s;
@@ -802,7 +810,7 @@ img {
     width: 30px;
   }
   .mobile-nav .mini-title {
-    color: white;
+    color: #FFFFFF;
     padding: 0 20px;
     font-size: 2rem;
   }
@@ -901,7 +909,10 @@ img {
     width: 100%;
   }
   #fifth {
-    height: 10vh;
+    height: 14vh;
+  }
+  #fifth .beer-back-container {
+    background-size: contain;
   }
   #sixth .events-container {
     display: -webkit-box;

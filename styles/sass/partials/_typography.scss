@@ -69,7 +69,7 @@ h4,
 p {
     font-size: 1.95rem;
     line-height: 1.5rem;
-    letter-spacing: 1.9px;
+    
 
 }
 
@@ -86,3 +86,10 @@ p {
     font-weight:lighter;
 }
 
+.copyright-container {
+    p {
+        font-family: 'Chathura',
+            sans-serif;
+        font-size: 1.95rem;
+    }
+}

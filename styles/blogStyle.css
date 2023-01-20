@@ -261,7 +261,7 @@ html {
 .nav-wrap li {
   padding: 0 20px;
   font-size: 2.3rem;
-  color: white;
+  color: #FFFFFF;
 }
 .nav-wrap li h3 {
   font-family: "Tulpen One", cursive;
@@ -299,6 +299,10 @@ footer .copyright-container {
   background-size: cover;
 }
 
+.mini-title {
+  display: none;
+}
+
 .nav-wrap {
   padding: 20px 0 0 0;
   line-height: 1.5rem;
@@ -313,7 +317,7 @@ footer .copyright-container {
           justify-content: center;
 }
 .nav-wrap ul li a {
-  color: white;
+  color: #FFFFFF;
   padding: 0 1.1rem;
 }
 .nav-wrap ul h3 {
@@ -336,12 +340,12 @@ footer .copyright-container {
       -ms-flex-align: center;
           align-items: center;
   margin: 170px 0;
-  color: white;
+  color: #FFFFFF;
 }
 
 #second {
-  background-color: black;
-  color: white;
+  background-color: #111010;
+  color: #FFFFFF;
 }
 
 .container-wrap {
@@ -379,7 +383,7 @@ footer .copyright-container {
           flex-direction: column;
   padding: 310px 30px 20px 30px;
   margin: 50px 75px;
-  background-color: #310906;
+  background-color: #220303;
 }
 .container-wrap .left-container .text-box .our-mission h2 {
   margin-bottom: 0;
@@ -389,7 +393,7 @@ footer .copyright-container {
 }
 .container-wrap .left-container .text-box .our-mission a {
   margin-top: 0;
-  color: orangered;
+  color: #FF8327;
 }
 .container-wrap .left-container .text-box .recent-posts h2 {
   margin-bottom: 0;
@@ -400,7 +404,7 @@ footer .copyright-container {
 }
 .container-wrap .left-container .text-box .recent-posts ul li::before {
   content: "•";
-  color: red;
+  color: #BF2603;
   display: inline-block;
   width: 1rem;
   margin-left: -1em;
@@ -419,8 +423,8 @@ footer .copyright-container {
 }
 .container-wrap .right-container .top-image-container {
   width: calc(100% - 20px);
-  -webkit-box-shadow: -20px 20px orangered;
-          box-shadow: -20px 20px orangered;
+  -webkit-box-shadow: -20px 20px #FF8327;
+          box-shadow: -20px 20px #FF8327;
   position: relative;
   left: 20px;
 }
@@ -433,14 +437,14 @@ footer .copyright-container {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 60px 100px;
-  border-left: 5px solid orangered;
-  border-bottom: 5px solid orangered;
+  border-left: 5px solid #FF8327;
+  border-bottom: 5px solid #FF8327;
 }
 .container-wrap .right-container .blog-text-container h2 {
   margin-bottom: 0;
 }
 .container-wrap .right-container .blog-text-container .date {
-  color: orangered;
+  color: #FF8327;
   margin: 0;
   padding-top: 10px;
 }
@@ -484,7 +488,7 @@ footer .copyright-container {
 }
 .container-wrap .right-container .first-comment .comment-1 h4, .container-wrap .right-container .first-comment .comment-2 h4, .container-wrap .right-container .second-comment .comment-1 h4, .container-wrap .right-container .second-comment .comment-2 h4 {
   margin: 0 0 10px 0;
-  color: orangered;
+  color: #FF8327;
 }
 .container-wrap .right-container .first-comment .comment-1 p, .container-wrap .right-container .first-comment .comment-2 p, .container-wrap .right-container .second-comment .comment-1 p, .container-wrap .right-container .second-comment .comment-2 p {
   margin-top: 0;
@@ -529,8 +533,8 @@ footer .copyright-container {
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .names input {
   background-color: transparent;
-  color: white;
-  border-bottom: 1px solid orangered;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FF8327;
   width: 100%;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .email {
@@ -542,8 +546,8 @@ footer .copyright-container {
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .email input {
   background-color: transparent;
-  color: white;
-  border-bottom: 1px solid orangered;
+  color: #FFFFFF;
+  border-bottom: 1px solid #FF8327;
 }
 .container-wrap .right-container .form-container .form-wrap form .message-wrap {
   display: -webkit-box;
@@ -565,8 +569,8 @@ footer .copyright-container {
   height: 180px;
   padding: 20px;
   background-color: transparent;
-  color: white;
-  border: 1px solid orangered;
+  color: #FFFFFF;
+  border: 1px solid #FF8327;
   margin-bottom: 35px;
 }
 .container-wrap .right-container .form-container .form-wrap form .message-wrap .button {
@@ -578,8 +582,8 @@ footer .copyright-container {
           justify-content: center;
 }
 .container-wrap .right-container .form-container .form-wrap form .message-wrap .button .submit-button {
-  background-color: red;
-  color: white;
+  background-color: #BF2603;
+  color: #FFFFFF;
   border: none;
   width: 100%;
 }
@@ -640,7 +644,7 @@ footer .copyright-container {
   }
   .mobile-nav .dropdown .drop-nav div {
     height: 7px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0 0 5px 5px;
     border-radius: 25px;
     -webkit-transition: 0.3s;
@@ -672,7 +676,7 @@ footer .copyright-container {
     width: 30px;
   }
   .mobile-nav .mini-title {
-    color: white;
+    color: #FFFFFF;
     padding: 0 20px;
     font-family: "Tulpen One";
     font-size: 2rem;
@@ -735,7 +739,7 @@ footer .copyright-container {
     width: 100%;
   }
   #second .container-wrap .right-container .blog-text-container {
-    border: 5px solid orangered;
+    border: 5px solid #FF8327;
     padding: 40px 40px;
     text-align: center;
   }

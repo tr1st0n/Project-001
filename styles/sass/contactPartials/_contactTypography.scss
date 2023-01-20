@@ -11,7 +11,7 @@ html {
     li {
         padding: 0 20px;
         font-size: 2.3rem;
-        color: white;
+        color: #FFFFFF;
         h3 {
             font-family: 'Tulpen One',
             cursive;
@@ -24,13 +24,13 @@ html {
     font-family: 'Chathura',
     sans-serif;
     font-size: 5.5rem;
-    color: white;
+    color: #FFFFFF;
 }
 
 .contact-wrap {
     font-family: 'Chathura',
     sans-serif;
-    color: white;
+    color: #FFFFFF;
     font-size: 1.5rem;
     line-height: 25px;
     .contact-email {
@@ -66,5 +66,19 @@ html {
             font-family: 'Chathura',
             sans-serif;
         }
+    }
+}
+
+.submit-button {
+    font-family: 'Tulpen One',
+        cursive;
+    font-size: 2rem;
+}
+
+.copyright-container {
+    p {
+        font-family: 'Chathura',
+            sans-serif;
+        font-size: 1.95rem;
     }
 }

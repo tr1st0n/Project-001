@@ -266,7 +266,7 @@ html {
 .nav-wrap li {
   padding: 0 20px;
   font-size: 2.3rem;
-  color: white;
+  color: #FFFFFF;
 }
 .nav-wrap li h3 {
   font-family: "Tulpen One", cursive;
@@ -275,12 +275,12 @@ html {
 .title-container h4 {
   font-family: "Chathura", sans-serif;
   font-size: 5.5rem;
-  color: white;
+  color: #FFFFFF;
 }
 
 .contact-wrap {
   font-family: "Chathura", sans-serif;
-  color: white;
+  color: #FFFFFF;
   font-size: 1.5rem;
   line-height: 25px;
 }
@@ -309,11 +309,26 @@ html {
   font-family: "Chathura", sans-serif;
 }
 
+.submit-button {
+  font-family: "Tulpen One", cursive;
+  font-size: 2rem;
+}
+
+.copyright-container p {
+  font-family: "Chathura", sans-serif;
+  font-size: 1.95rem;
+}
+
 #first {
   background-image: url(../../../assets/contact-header-1.jpg);
+  background-size: contain;
 }
 
 .dropdown {
+  display: none;
+}
+
+.mini-title {
   display: none;
 }
 
@@ -331,7 +346,7 @@ html {
           justify-content: center;
 }
 .nav-wrap ul li a {
-  color: white;
+  color: #FFFFFF;
   padding: 0 1.1rem;
 }
 .nav-wrap ul h3 {
@@ -454,7 +469,7 @@ html {
 .foot-wrap .form-container .form-wrapper .info-container .email input {
   padding: 10px;
   background-color: transparent;
-  color: white;
+  color: #FFFFFF;
 }
 .foot-wrap .form-container .form-wrapper .info-container .names {
   width: 50%;
@@ -464,10 +479,10 @@ html {
 .foot-wrap .form-container .form-wrapper .info-container .names input {
   padding: 10px;
   background-color: transparent;
-  color: white;
+  color: #FFFFFF;
 }
 .foot-wrap .form-container .form-wrapper form {
-  background-color: #310906;
+  background-color: #220303;
   color: black;
   padding: 50px;
   width: 100%;
@@ -477,7 +492,7 @@ html {
   padding: 10px 10px;
   margin-bottom: 35px;
   background-color: transparent;
-  color: white;
+  color: #FFFFFF;
 }
 .foot-wrap .form-container .form-wrapper .message-wrap .submit-button {
   width: 100%;
@@ -485,8 +500,6 @@ html {
   background-color: #BF2603;
   color: #FFFFFF;
   border-style: none;
-  font-family: "Tulpen One", cursive;
-  font-size: 1.4rem;
 }
 
 .copyright-container {
@@ -497,7 +510,7 @@ html {
   margin: 0;
 }
 .copyright-container p {
-  padding: 13px;
+  padding: 13px 0;
   margin: 0;
   font-family: "Chathura", sans-serif;
   font-size: 1.95rem;
@@ -534,7 +547,7 @@ html {
   }
   header .mobile-nav .dropdown .drop-nav div {
     height: 7px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0 0 5px 5px;
     border-radius: 25px;
     -webkit-transition: 0.3s;
@@ -566,7 +579,7 @@ html {
     width: 30px;
   }
   header .mobile-nav .mini-title {
-    color: white;
+    color: #FFFFFF;
     padding: 0 20px;
     font-family: "Tulpen One";
     font-size: 2rem;
