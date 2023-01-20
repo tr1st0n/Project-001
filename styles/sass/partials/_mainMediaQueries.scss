@@ -28,20 +28,27 @@
 
     .planning-box {
         .text-container-2 {
+            order: 2;
             h3 {
-                padding: 20px 0 0 0;
+                padding: 20px 0 0 0;            
             }
         }
         .image-container {
             position: relative;
             bottom: -30px;
+            order: 1;
         }
         .image-container-second {
             height: 50%;
+            position: relative;
+            bottom: -30px;
+            order: 3;
+
         }
 
         .text-container-3 {
             padding: 0 30px 20px 30px;
+            order: 4;
             h3 {
                 text-align: left;
             }
@@ -79,8 +86,69 @@
 }
 
 @media (max-width: 390px) {
+        .mobile-nav {
+            display: flex;
+            justify-content: space-between;
+        
+            .dropdown {
+                display: flex;
+                flex-direction: column;
+        
+                .drop-nav div {
+                    height: 7px;
+                    background-color: white;
+                    margin: 0 0 5px 5px;
+                    border-radius: 25px;
+                    transition: 0.3s;
+                }
+        
+                .drop-nav {
+                    width: 30px;
+                    display: block;
+                    margin: 0 0 0 .5em;
+                    padding-top: 10px;
+        
+                    a {
+                        margin-top: 0;
+                    }
+                }
+        
+                .one {
+                    width: 50px;
+                    margin-top: 0;
+                }
+        
+                .two {
+                    width: 40px;
+                }
+        
+                .three {
+                    width: 50px;
+                }
+        
+                .four {
+                    width: 40px;
+                }
+        
+                .drop-nav:hover div {
+                    width: 30px;
+                }
+            }
+        
+            .mini-title {
+                color: white;
+                padding: 0 20px;
+                
+                font-size: 2rem;
+        
+                h3 {
+                    margin: 5px 0 20px 0;
+                    font-family: 'Tulpen One';
+                }
+            }
+        }
     .head-flex {
-        height: 70vh;
+        height: 46vh;
         .nav-wrap {
             width: 100%;
             display: none;
@@ -102,7 +170,7 @@
             }
         }
         .side-image {
-            visibility: hidden;
+            display: none;
         }
     }
     #second {
@@ -153,7 +221,7 @@
             .image-container-second {
                 width: 100%;
                 position: relative;
-                bottom: 20px;
+                bottom: 40px;
             }
         }
     }   
@@ -178,7 +246,7 @@
             flex-direction: column;
             
             .image-container-2 {
-                width: 50%;
+                width: 80%;
                 padding: 20px 0;
             }
             .text-container-5 {

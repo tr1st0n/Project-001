@@ -313,6 +313,10 @@ html {
   background-image: url(../../../assets/contact-header-1.jpg);
 }
 
+.dropdown {
+  display: none;
+}
+
 .nav-wrap {
   padding: 20px 0 0 0;
   line-height: 1.5rem;
@@ -500,10 +504,138 @@ html {
 }
 
 @media (max-width: 810px) {
+  header .dropdown {
+    display: none;
+  }
   footer .foot-wrap .contact-wrap .address-box p {
     width: 9rem;
   }
   footer .form-container {
     left: -3rem;
+  }
+}
+@media (max-width: 390px) {
+  header .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header .mobile-nav .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  header .mobile-nav .dropdown .drop-nav div {
+    height: 7px;
+    background-color: white;
+    margin: 0 0 5px 5px;
+    border-radius: 25px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  header .mobile-nav .dropdown .drop-nav {
+    width: 30px;
+    display: block;
+    margin: 0 0 0 0.5em;
+    padding-top: 10px;
+  }
+  header .mobile-nav .dropdown .drop-nav a {
+    margin-top: 0;
+  }
+  header .mobile-nav .dropdown .one {
+    width: 50px;
+    margin-top: 0;
+  }
+  header .mobile-nav .dropdown .two {
+    width: 40px;
+  }
+  header .mobile-nav .dropdown .three {
+    width: 50px;
+  }
+  header .mobile-nav .dropdown .four {
+    width: 40px;
+  }
+  header .mobile-nav .dropdown .drop-nav:hover div {
+    width: 30px;
+  }
+  header .mobile-nav .mini-title {
+    color: white;
+    padding: 0 20px;
+    font-family: "Tulpen One";
+    font-size: 2rem;
+  }
+  header .mobile-nav .mini-title h3 {
+    margin: 5px 0 20px 0;
+  }
+  header .nav-wrap {
+    display: none;
+  }
+  header .wrapper .title-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  header .wrapper .title-container h4 {
+    margin: 120px 0 170px 0;
+  }
+  footer .wrapper-2 {
+    margin: 0 auto;
+  }
+  footer .wrapper-2 .foot-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .wrapper-2 .foot-wrap .contact-wrap {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    margin: 10px 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .wrapper-2 .foot-wrap .contact-wrap .contact-email p {
+    margin: 0;
+  }
+  footer .wrapper-2 .foot-wrap .contact-wrap .address-box {
+    width: 18rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  footer .wrapper-2 .foot-wrap .contact-wrap .address-box p {
+    width: 18rem;
+  }
+  footer .wrapper-2 .foot-wrap .form-container {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-top: 20px;
+  }
+  footer .wrapper-2 .foot-wrap .form-container .form-wrapper form {
+    width: 100%;
+    padding: 30px 50px;
+  }
+  footer .wrapper-2 .foot-wrap .form-container .form-wrapper form .message-wrap .message-container .text-area {
+    height: 150px;
   }
 }

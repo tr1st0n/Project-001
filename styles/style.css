@@ -695,18 +695,34 @@ img {
   .wrapper .text-box-1 {
     padding: 10px 0;
   }
+  .planning-box .text-container-2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
   .planning-box .text-container-2 h3 {
     padding: 20px 0 0 0;
   }
   .planning-box .image-container {
     position: relative;
     bottom: -30px;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
   }
   .planning-box .image-container-second {
     height: 50%;
+    position: relative;
+    bottom: -30px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
   .planning-box .text-container-3 {
     padding: 0 30px 20px 30px;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
   }
   .planning-box .text-container-3 h3 {
     text-align: left;
@@ -735,8 +751,67 @@ img {
   }
 }
 @media (max-width: 390px) {
+  .mobile-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .mobile-nav .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mobile-nav .dropdown .drop-nav div {
+    height: 7px;
+    background-color: white;
+    margin: 0 0 5px 5px;
+    border-radius: 25px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .mobile-nav .dropdown .drop-nav {
+    width: 30px;
+    display: block;
+    margin: 0 0 0 0.5em;
+    padding-top: 10px;
+  }
+  .mobile-nav .dropdown .drop-nav a {
+    margin-top: 0;
+  }
+  .mobile-nav .dropdown .one {
+    width: 50px;
+    margin-top: 0;
+  }
+  .mobile-nav .dropdown .two {
+    width: 40px;
+  }
+  .mobile-nav .dropdown .three {
+    width: 50px;
+  }
+  .mobile-nav .dropdown .four {
+    width: 40px;
+  }
+  .mobile-nav .dropdown .drop-nav:hover div {
+    width: 30px;
+  }
+  .mobile-nav .mini-title {
+    color: white;
+    padding: 0 20px;
+    font-size: 2rem;
+  }
+  .mobile-nav .mini-title h3 {
+    margin: 5px 0 20px 0;
+    font-family: "Tulpen One";
+  }
   .head-flex {
-    height: 70vh;
+    height: 46vh;
   }
   .head-flex .nav-wrap {
     width: 100%;
@@ -757,7 +832,7 @@ img {
     font-size: 3rem;
   }
   .head-flex .side-image {
-    visibility: hidden;
+    display: none;
   }
   #second {
     padding: 30px 0;
@@ -817,7 +892,7 @@ img {
   #third .planning-box .image-container-second {
     width: 100%;
     position: relative;
-    bottom: 20px;
+    bottom: 40px;
   }
   #fourth .reserve-container .text-container-4 p {
     padding: 20px 20px;
@@ -838,7 +913,7 @@ img {
             flex-direction: column;
   }
   #sixth .events-container .image-container-2 {
-    width: 50%;
+    width: 80%;
     padding: 20px 0;
   }
   #sixth .events-container .text-container-5 {

@@ -1,5 +1,9 @@
 @media (max-width: 810px) {
-
+    header {
+        .dropdown {
+            display: none;
+        }
+    }
 
     footer {
         .foot-wrap {
@@ -17,4 +21,130 @@
             
     }
 
+}
+
+@media (max-width: 390px) {
+    header {
+        
+        .mobile-nav {
+            display: flex;
+            justify-content: space-between;
+            .dropdown {
+                display: flex;
+                flex-direction: column;
+                
+                .drop-nav div {
+                    height: 7px;
+                    background-color: white;
+                    margin: 0 0 5px 5px;
+                    border-radius: 25px;
+                    transition: 0.3s;
+                }
+            
+                .drop-nav {
+                    width: 30px;
+                    display: block;
+                    margin: 0 0 0 .5em;
+                    padding-top: 10px;
+            
+                    a {
+                        margin-top: 0;
+                    }
+                }
+            
+                .one {
+                    width: 50px;
+                    margin-top: 0;
+                }
+            
+                .two {
+                    width: 40px;
+                }
+            
+                .three {
+                    width: 50px;
+                }
+            
+                .four {
+                    width: 40px;
+                }
+            
+                .drop-nav:hover div {
+                    width: 30px;
+                }
+            }
+            .mini-title {
+                color: white;
+                padding: 0 20px;
+                font-family:'Tulpen One';
+                font-size: 2rem;
+                h3 {
+                    margin: 5px 0 20px 0;
+                }
+            }
+        }
+        .nav-wrap {
+            display: none;
+        }
+        .wrapper {
+            .title-container {
+                justify-content: center;
+                h4 {
+                    margin: 120px 0 170px 0;
+                }
+            }
+        }
+    }
+    footer {
+        .wrapper-2 {
+            margin: 0 auto;
+            .foot-wrap {
+                
+                display: flex;
+                flex-direction: column;
+                .contact-wrap {
+                    order: 2;
+                    width: 100%;
+                    margin: 10px 0;
+                    align-items: center;
+                    .contact-email {
+                        p {
+                            margin: 0;
+                        }
+                    }
+                    .address-box {
+                        width: 18rem;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        p {
+                            width: 18rem;
+                        }
+                    }
+                }
+                .form-container {
+                    order: 1;
+                    position: relative;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    width: 100%;
+                    box-shadow: none;
+                    margin-top: 20px;
+                    .form-wrapper {
+                        form {
+                            width: 100%;
+                            padding: 30px 50px;
+                            .message-wrap {
+                                .message-container {
+                                    .text-area {
+                                        height: 150px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
