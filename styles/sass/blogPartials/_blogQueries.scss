@@ -17,13 +17,19 @@
         }
         .right-container {
             width: 60%;
+            .blog-text-container {
+                padding: 60px 20px;
+            }
             .comments-container {
+                padding: 40px 20px;
                 .pf-pic-container {
                     width: 100%;
                 }
             }
             .form-container {
                 .form-wrap {
+                    margin: 0;
+                    width: 100%;
                     form {
                         .info-container {
                             .email {

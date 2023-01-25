@@ -617,7 +617,17 @@ footer .copyright-container {
   .container-wrap .right-container {
     width: 60%;
   }
+  .container-wrap .right-container .blog-text-container {
+    padding: 60px 20px;
+  }
+  .container-wrap .right-container .comments-container {
+    padding: 40px 20px;
+  }
   .container-wrap .right-container .comments-container .pf-pic-container {
+    width: 100%;
+  }
+  .container-wrap .right-container .form-container .form-wrap {
+    margin: 0;
     width: 100%;
   }
   .container-wrap .right-container .form-container .form-wrap form .info-container .email input {
