@@ -527,7 +527,7 @@ html {
     left: -3rem;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 320px) {
   header .mobile-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -646,7 +646,7 @@ html {
   }
   footer .wrapper-2 .foot-wrap .form-container .form-wrapper form {
     width: 100%;
-    padding: 30px 50px;
+    padding: 30px 20px;
   }
   footer .wrapper-2 .foot-wrap .form-container .form-wrapper form .message-wrap .message-container .text-area {
     height: 150px;

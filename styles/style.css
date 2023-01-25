@@ -24,7 +24,6 @@ h4,
 .text-container-3,
 .text-container-4,
 .text-container-5 {
-  font-weight: bold;
   font-size: 2.43rem;
   line-height: 2.9rem;
   letter-spacing: 2.2px;
@@ -707,6 +706,7 @@ img {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    padding: 0px 30px 20px 30px;
   }
   .planning-box .text-container-2 h3 {
     padding: 20px 0 0 0;
@@ -721,16 +721,15 @@ img {
   .planning-box .image-container-second {
     height: 50%;
     position: relative;
-    bottom: -30px;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-  }
-  .planning-box .text-container-3 {
-    padding: 0 30px 20px 30px;
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
+  }
+  .planning-box .text-container-3 {
+    padding: 0 30px 20px 30px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
   }
   .planning-box .text-container-3 h3 {
     text-align: left;
@@ -758,7 +757,10 @@ img {
     padding: 10px 0;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 320px) {
+  #first {
+    height: 80vh;
+  }
   .mobile-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -853,12 +855,29 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding: 0;
   }
   #second .wrapper .text-box-1 .text-container-1 {
-    padding: 20px 0;
+    padding: 10px 0 0 0;
   }
   #second .wrapper .text-box-1 .text-container-1 h3 {
-    text-align: left;
+    text-align: center;
+  }
+  #second .wrapper .text-box-1 .text-container-1 p {
+    padding: 0;
+    text-align: center;
+  }
+  #second .wrapper .text-box-1 .text-container-1 .new-space::before {
+    display: none;
+  }
+  #second .wrapper .text-box-1 .text-container-1 .community::before {
+    display: none;
+  }
+  #second .wrapper .text-box-1 .text-container-1 .blog::before {
+    display: none;
+  }
+  #second .wrapper .text-box-1 .text-container-1 .get-in-touch::before {
+    display: none;
   }
   #third .planning-box {
     display: -webkit-box;
@@ -886,7 +905,10 @@ img {
   }
   #third .planning-box .text-container-3 {
     width: 100%;
-    padding: 30px 30px;
+    padding: 50px 30px 30px 30px;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
     text-align: center;
   }
   #third .planning-box .text-container-3 h3 {
@@ -901,18 +923,27 @@ img {
     width: 100%;
     position: relative;
     bottom: 40px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  #fourth {
+    padding: 30px 0;
+  }
+  #fourth .reserve-container .text-container-4 {
+    padding: 0;
   }
   #fourth .reserve-container .text-container-4 p {
-    padding: 20px 20px;
+    padding: 20px 0;
   }
   #fourth .reserve-container .text-container-4 a {
     width: 100%;
   }
   #fifth {
-    height: 14vh;
+    display: none;
   }
-  #fifth .beer-back-container {
-    background-size: contain;
+  #sixth {
+    padding: 30px 0;
   }
   #sixth .events-container {
     display: -webkit-box;
@@ -930,12 +961,16 @@ img {
   #sixth .events-container .text-container-5 {
     width: 100%;
     text-align: center;
+    padding: 0;
   }
   #sixth .events-container .text-container-5 p {
     width: 100%;
   }
   #sixth .events-container .find-out-more-2 {
     width: 100%;
+  }
+  #seventh {
+    padding: 30px 0;
   }
   #seventh .gallery-container {
     display: -webkit-box;

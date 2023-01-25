@@ -39,7 +39,7 @@
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 320px){
     .mobile-nav {
         display: flex;
         justify-content: space-between;
@@ -150,11 +150,11 @@
                 }
                 .blog-text-container {
                     border: 5px solid #FF8327;
-                    padding: 40px 40px;
+                    padding: 40px 20px;
                     text-align: center;
                 }
                 .comments-container {
-                    padding: 40px 40px;
+                    padding: 40px 20px;
                     text-align: center;
                     .first-comment,
                     .second-comment {

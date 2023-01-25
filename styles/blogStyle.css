@@ -624,7 +624,7 @@ footer .copyright-container {
     width: 100%;
   }
 }
-@media (max-width: 390px) {
+@media (max-width: 320px) {
   .mobile-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -740,11 +740,11 @@ footer .copyright-container {
   }
   #second .container-wrap .right-container .blog-text-container {
     border: 5px solid #FF8327;
-    padding: 40px 40px;
+    padding: 40px 20px;
     text-align: center;
   }
   #second .container-wrap .right-container .comments-container {
-    padding: 40px 40px;
+    padding: 40px 20px;
     text-align: center;
   }
   #second .container-wrap .right-container .comments-container .first-comment,
