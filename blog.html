@@ -156,21 +156,29 @@
                             sapiente tempora. Vel, facere!</p>
                         </div>
                     </div>
-                </div>
+                    <div class="newComment">
+                    <!--<div class="guest-pf-pic-container">
+                            <img src="./assets/guest-image.jpg" alt="">
+                        </div>
+                        <div class="newCommentText">
+                            <h4>Recently Submitted by ${username}</h4>
+                            <p>${comment}</p>
+                        </div> -->
+                    </div>
 
 <!--Form Container-->
 
                 <div class="form-container">
                     <div class="form-wrap">
-                        <form action="#" method="post">
+                        <form action="" method="" id="form">
                             <div class="info-container">
                                 <div class="names">
-                                    <label for="names">Usernames</label>       
-                                    <input type="text" name="name">
+                                    <label for="names">Name</label>       
+                                    <input type="text" name="name" id="name">
                                 </div>
                                 <div class="email">
                                     <label for="email">Email Address</label>        
-                                    <input type="email" name="email">
+                                    <input type="email" name="email" id="email">
                                 </div>
                             </div>
                             <div class="message-wrap">
@@ -194,6 +202,56 @@
         <p>Copyright © 2019 HackerYou</p>
     </div>
 </footer>
+<script>
 
+let username = document.getElementById('name').value;
+let email = document.getElementById('email').value;
+let comment = document.getElementById('comments').value;
+
+const addComment = document.getElementsByClassName('newComment');
+const submission = document.querySelector('button');
+const form = document.getElementById('form');
+
+form.addEventListener('submit', function(event){
+    event.preventDefault();
+
+console.log(addComment);
+
+// Conditional Statement - Only return if all fields are complete    
+    if (username && email && comment){
+
+        //Create a new element that will have the HTML for the new Comment 
+        const yourComment = document.createElement('div');
+        yourComment.className = "your-comment-container";
+        //Create our Inner HTML for our new Element
+        yourComment.innerHTML = 
+        `
+        <div class="guest-pf-pic-container">
+            <img src="./assets/guest-image.jpg" alt="">
+        </div>
+        <div class="newCommentText">
+            <h4>Recently Submitted by ${username}</h4>
+            <p>${comment}</p>
+        </div>
+        `;           
+
+        //Append new Comment to the container
+        addComment[0].appendChild(yourComment);
+
+        console.log(`${username} ${email} ${comment}`);
+        return `${username} ${email} ${comment}`;
+        // Alert User if they don't fill out all fields 
+    } else {
+        alert('You must fill out all fields to comment')
+    }
+            
+
+    
+    //Clear out the input for new comments
+
+    
+});
+
+</script>
 </body>
 </html>

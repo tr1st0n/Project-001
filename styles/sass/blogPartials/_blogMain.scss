@@ -99,22 +99,24 @@
         }
 
 // COMMENTS 
-
+        .your-comment-container {
+            display: flex;
+        }
         .comments-container {
             display: flex;
             flex-direction: column;
             padding: 40px 60px;
         }
-        .first-comment, .second-comment {
+        .first-comment, .second-comment, .newComment {
             display: flex;
             
-            .pf-pic-container {
+            .pf-pic-container, .guest-pf-pic-container {
                 width: 30%;
                 display: flex;
                 align-items: flex-start;
                 margin-right: 35px;
             }
-            .comment-1, .comment-2 {
+            .comment-1, .comment-2, .newCommentText {
                 display: flex;
                 flex-direction: column;
                 h4 {

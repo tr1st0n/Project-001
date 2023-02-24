@@ -452,6 +452,11 @@ footer .copyright-container {
   padding: 15px 0;
   margin: 0;
 }
+.container-wrap .right-container .your-comment-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .container-wrap .right-container .comments-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -462,12 +467,12 @@ footer .copyright-container {
           flex-direction: column;
   padding: 40px 60px;
 }
-.container-wrap .right-container .first-comment, .container-wrap .right-container .second-comment {
+.container-wrap .right-container .first-comment, .container-wrap .right-container .second-comment, .container-wrap .right-container .newComment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-.container-wrap .right-container .first-comment .pf-pic-container, .container-wrap .right-container .second-comment .pf-pic-container {
+.container-wrap .right-container .first-comment .pf-pic-container, .container-wrap .right-container .first-comment .guest-pf-pic-container, .container-wrap .right-container .second-comment .pf-pic-container, .container-wrap .right-container .second-comment .guest-pf-pic-container, .container-wrap .right-container .newComment .pf-pic-container, .container-wrap .right-container .newComment .guest-pf-pic-container {
   width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -477,7 +482,7 @@ footer .copyright-container {
           align-items: flex-start;
   margin-right: 35px;
 }
-.container-wrap .right-container .first-comment .comment-1, .container-wrap .right-container .first-comment .comment-2, .container-wrap .right-container .second-comment .comment-1, .container-wrap .right-container .second-comment .comment-2 {
+.container-wrap .right-container .first-comment .comment-1, .container-wrap .right-container .first-comment .comment-2, .container-wrap .right-container .first-comment .newCommentText, .container-wrap .right-container .second-comment .comment-1, .container-wrap .right-container .second-comment .comment-2, .container-wrap .right-container .second-comment .newCommentText, .container-wrap .right-container .newComment .comment-1, .container-wrap .right-container .newComment .comment-2, .container-wrap .right-container .newComment .newCommentText {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -486,11 +491,11 @@ footer .copyright-container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.container-wrap .right-container .first-comment .comment-1 h4, .container-wrap .right-container .first-comment .comment-2 h4, .container-wrap .right-container .second-comment .comment-1 h4, .container-wrap .right-container .second-comment .comment-2 h4 {
+.container-wrap .right-container .first-comment .comment-1 h4, .container-wrap .right-container .first-comment .comment-2 h4, .container-wrap .right-container .first-comment .newCommentText h4, .container-wrap .right-container .second-comment .comment-1 h4, .container-wrap .right-container .second-comment .comment-2 h4, .container-wrap .right-container .second-comment .newCommentText h4, .container-wrap .right-container .newComment .comment-1 h4, .container-wrap .right-container .newComment .comment-2 h4, .container-wrap .right-container .newComment .newCommentText h4 {
   margin: 0 0 10px 0;
   color: #FF8327;
 }
-.container-wrap .right-container .first-comment .comment-1 p, .container-wrap .right-container .first-comment .comment-2 p, .container-wrap .right-container .second-comment .comment-1 p, .container-wrap .right-container .second-comment .comment-2 p {
+.container-wrap .right-container .first-comment .comment-1 p, .container-wrap .right-container .first-comment .comment-2 p, .container-wrap .right-container .first-comment .newCommentText p, .container-wrap .right-container .second-comment .comment-1 p, .container-wrap .right-container .second-comment .comment-2 p, .container-wrap .right-container .second-comment .newCommentText p, .container-wrap .right-container .newComment .comment-1 p, .container-wrap .right-container .newComment .comment-2 p, .container-wrap .right-container .newComment .newCommentText p {
   margin-top: 0;
 }
 .container-wrap .right-container .form-container {
@@ -724,7 +729,7 @@ footer .copyright-container {
     margin: 0 20px;
   }
   #second .container-wrap .left-container .text-box .our-mission,
-#second .container-wrap .left-container .text-box .recent-posts {
+  #second .container-wrap .left-container .text-box .recent-posts {
     text-align: center;
   }
   #second .container-wrap .left-container .left-image-container {
@@ -758,7 +763,7 @@ footer .copyright-container {
     text-align: center;
   }
   #second .container-wrap .right-container .comments-container .first-comment,
-#second .container-wrap .right-container .comments-container .second-comment {
+  #second .container-wrap .right-container .comments-container .second-comment {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -768,7 +773,7 @@ footer .copyright-container {
             flex-direction: column;
   }
   #second .container-wrap .right-container .comments-container .first-comment .pf-pic-container,
-#second .container-wrap .right-container .comments-container .second-comment .pf-pic-container {
+  #second .container-wrap .right-container .comments-container .second-comment .pf-pic-container {
     -ms-flex-item-align: center;
         align-self: center;
     width: 40%;
