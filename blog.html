@@ -174,11 +174,11 @@
                             <div class="info-container">
                                 <div class="names">
                                     <label for="names">Name</label>       
-                                    <input type="text" name="name" id="name">
+                                    <input type="text" name="name" id="name" style="font-size: 17px;">
                                 </div>
                                 <div class="email">
                                     <label for="email">Email Address</label>        
-                                    <input type="email" name="email" id="email">
+                                    <input type="email" name="email" id="email" style="font-size: 17px;">
                                 </div>
                             </div>
                             <div class="message-wrap">
@@ -204,9 +204,9 @@
 </footer>
 <script>
 
-let username = document.getElementById('name').value;
-let email = document.getElementById('email').value;
-let comment = document.getElementById('comments').value;
+let username = document.getElementById('name');
+let email = document.getElementById('email');
+let comment = document.getElementById('comments');
 
 const addComment = document.getElementsByClassName('newComment');
 const submission = document.querySelector('button');
@@ -215,10 +215,13 @@ const form = document.getElementById('form');
 form.addEventListener('submit', function(event){
     event.preventDefault();
 
-console.log(addComment);
+// Get entry from Input Field
+const usernameEntered = username.value;
+const emailEntered = email.value;
+const commentEntered = comment.value;
 
 // Conditional Statement - Only return if all fields are complete    
-    if (username && email && comment){
+    if (usernameEntered && emailEntered && commentEntered){
 
         //Create a new element that will have the HTML for the new Comment 
         const yourComment = document.createElement('div');
@@ -230,16 +233,20 @@ console.log(addComment);
             <img src="./assets/guest-image.jpg" alt="">
         </div>
         <div class="newCommentText">
-            <h4>Recently Submitted by ${username}</h4>
-            <p>${comment}</p>
+            <h4>Recently Submitted by ${usernameEntered}</h4>
+            <p>${commentEntered}</p>
         </div>
         `;           
 
         //Append new Comment to the container
         addComment[0].appendChild(yourComment);
 
-        console.log(`${username} ${email} ${comment}`);
-        return `${username} ${email} ${comment}`;
+        //Clear out input fields for new comments
+        username.value = '';
+        email.value = '';
+        comment.value = '';
+
+
         // Alert User if they don't fill out all fields 
     } else {
         alert('You must fill out all fields to comment')

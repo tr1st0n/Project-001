@@ -99,26 +99,24 @@
         }
 
 // COMMENTS 
-        .your-comment-container {
-            display: flex;
-        }
-        .comments-container {
+
+        .newComment {
             display: flex;
             flex-direction: column;
-            padding: 40px 60px;
-        }
-        .first-comment, .second-comment, .newComment {
-            display: flex;
-            
-            .pf-pic-container, .guest-pf-pic-container {
-                width: 30%;
-                display: flex;
-                align-items: flex-start;
-                margin-right: 35px;
+            .your-comment-container {
+                display: flex;  
+                margin: 0 0 20px 0;
+                .guest-pf-pic-container {
+                    width: 15%;
+                    display: flex;
+                    align-items: flex-start;
+                    margin-right: 35px;
+                }
             }
-            .comment-1, .comment-2, .newCommentText {
+            .newCommentText {
                 display: flex;
                 flex-direction: column;
+                width: 86%;
                 h4 {
                     margin: 0 0 10px 0;
                     color: #FF8327;
@@ -129,18 +127,48 @@
             }
         }
 
+        
+
+        .comments-container {
+            display: flex;
+            flex-direction: column;
+            padding: 40px 60px;
+        }
+        .first-comment, .second-comment, .newComment {
+            display: flex;
+            
+            .pf-pic-container {
+                width: 30%;
+                display: flex;
+                align-items: flex-start;
+                margin-right: 35px;
+            }
+            .comment-1, .comment-2 {
+                display: flex;
+                flex-direction: column;
+                h4 {
+                    margin: 0 0 10px 0;
+                    color: #FF8327;
+                }
+                p {
+                    margin-top: 0;
+                    width: 95%;
+                }
+            }
+        }
+
 // FORM CONTAINER
 
         .form-container {
             display: flex;
             .form-wrap {
                 display: flex;
-                width: 90%;
-                margin-left: 60px;
+                width: 100%;
+                
                 form {
                     display: flex;
                     flex-direction: column;
-                    
+                    width: 100%;
                     .info-container {
                         display: flex;
                         justify-content: space-between;
@@ -163,7 +191,8 @@
                         .email {
                             width: 50%;
                             margin-bottom: 35px;
-                            
+                            display: flex;
+                            flex-direction: column;
                             label {
                                 padding: 0 0 0 30px;
                             }

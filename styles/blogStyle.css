@@ -452,10 +452,47 @@ footer .copyright-container {
   padding: 15px 0;
   margin: 0;
 }
-.container-wrap .right-container .your-comment-container {
+.container-wrap .right-container .newComment {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.container-wrap .right-container .newComment .your-comment-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0 20px 0;
+}
+.container-wrap .right-container .newComment .your-comment-container .guest-pf-pic-container {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-right: 35px;
+}
+.container-wrap .right-container .newComment .newCommentText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 86%;
+}
+.container-wrap .right-container .newComment .newCommentText h4 {
+  margin: 0 0 10px 0;
+  color: #FF8327;
+}
+.container-wrap .right-container .newComment .newCommentText p {
+  margin-top: 0;
 }
 .container-wrap .right-container .comments-container {
   display: -webkit-box;
@@ -472,7 +509,7 @@ footer .copyright-container {
   display: -ms-flexbox;
   display: flex;
 }
-.container-wrap .right-container .first-comment .pf-pic-container, .container-wrap .right-container .first-comment .guest-pf-pic-container, .container-wrap .right-container .second-comment .pf-pic-container, .container-wrap .right-container .second-comment .guest-pf-pic-container, .container-wrap .right-container .newComment .pf-pic-container, .container-wrap .right-container .newComment .guest-pf-pic-container {
+.container-wrap .right-container .first-comment .pf-pic-container, .container-wrap .right-container .second-comment .pf-pic-container, .container-wrap .right-container .newComment .pf-pic-container {
   width: 30%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -482,7 +519,7 @@ footer .copyright-container {
           align-items: flex-start;
   margin-right: 35px;
 }
-.container-wrap .right-container .first-comment .comment-1, .container-wrap .right-container .first-comment .comment-2, .container-wrap .right-container .first-comment .newCommentText, .container-wrap .right-container .second-comment .comment-1, .container-wrap .right-container .second-comment .comment-2, .container-wrap .right-container .second-comment .newCommentText, .container-wrap .right-container .newComment .comment-1, .container-wrap .right-container .newComment .comment-2, .container-wrap .right-container .newComment .newCommentText {
+.container-wrap .right-container .first-comment .comment-1, .container-wrap .right-container .first-comment .comment-2, .container-wrap .right-container .second-comment .comment-1, .container-wrap .right-container .second-comment .comment-2, .container-wrap .right-container .newComment .comment-1, .container-wrap .right-container .newComment .comment-2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -491,12 +528,13 @@ footer .copyright-container {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.container-wrap .right-container .first-comment .comment-1 h4, .container-wrap .right-container .first-comment .comment-2 h4, .container-wrap .right-container .first-comment .newCommentText h4, .container-wrap .right-container .second-comment .comment-1 h4, .container-wrap .right-container .second-comment .comment-2 h4, .container-wrap .right-container .second-comment .newCommentText h4, .container-wrap .right-container .newComment .comment-1 h4, .container-wrap .right-container .newComment .comment-2 h4, .container-wrap .right-container .newComment .newCommentText h4 {
+.container-wrap .right-container .first-comment .comment-1 h4, .container-wrap .right-container .first-comment .comment-2 h4, .container-wrap .right-container .second-comment .comment-1 h4, .container-wrap .right-container .second-comment .comment-2 h4, .container-wrap .right-container .newComment .comment-1 h4, .container-wrap .right-container .newComment .comment-2 h4 {
   margin: 0 0 10px 0;
   color: #FF8327;
 }
-.container-wrap .right-container .first-comment .comment-1 p, .container-wrap .right-container .first-comment .comment-2 p, .container-wrap .right-container .first-comment .newCommentText p, .container-wrap .right-container .second-comment .comment-1 p, .container-wrap .right-container .second-comment .comment-2 p, .container-wrap .right-container .second-comment .newCommentText p, .container-wrap .right-container .newComment .comment-1 p, .container-wrap .right-container .newComment .comment-2 p, .container-wrap .right-container .newComment .newCommentText p {
+.container-wrap .right-container .first-comment .comment-1 p, .container-wrap .right-container .first-comment .comment-2 p, .container-wrap .right-container .second-comment .comment-1 p, .container-wrap .right-container .second-comment .comment-2 p, .container-wrap .right-container .newComment .comment-1 p, .container-wrap .right-container .newComment .comment-2 p {
   margin-top: 0;
+  width: 95%;
 }
 .container-wrap .right-container .form-container {
   display: -webkit-box;
@@ -507,8 +545,7 @@ footer .copyright-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
-  margin-left: 60px;
+  width: 100%;
 }
 .container-wrap .right-container .form-container .form-wrap form {
   display: -webkit-box;
@@ -518,6 +555,7 @@ footer .copyright-container {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 100%;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container {
   display: -webkit-box;
@@ -545,6 +583,13 @@ footer .copyright-container {
 .container-wrap .right-container .form-container .form-wrap form .info-container .email {
   width: 50%;
   margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .container-wrap .right-container .form-container .form-wrap form .info-container .email label {
   padding: 0 0 0 30px;
